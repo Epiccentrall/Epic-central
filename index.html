@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Central</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        p {
+            color: #34495e;
+            font-size: 18px;
+        }
+        .ad {
+            margin-top: 20px;
+        }
+        .ad img {
+            width: 300px;
+            border-radius: 10px;
+        }
+        .ad h2 {
+            color: #e74c3c;
+            margin-top: 10px;
+            display: inline-block;
+        }
+        .button {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 10px 15px;
+            margin: 10px;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: 0.3s;
+            cursor: pointer;
+            border: none;
+        }
+        .button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Epic Central</h1>
+    <p>This is a crypto community with 400+ members!</p>
+
+    <!-- Ad Section -->
+    <div class="ad">
+        <img src="https://i.postimg.cc/c4YtMG2F/ABED36-DB-6-F9-D-4351-8-F9-E-04-CEC146-DFAC.jpg" alt="Ad Image">
+        <h2>20QJ = 1$ LTC</h2>
+        <br>
+        <button class="button" onclick="showAddress()">Buy Now</button>
+        <button class="button" onclick="confirmPayment()">I have paid</button>
+    </div>
+
+    <script>
+        function showAddress() {
+            alert("Send LTC to this address: Lb8xAwbModArvDKkj2L7jbVJTY8mBRLzkW");
+        }
+
+        function confirmPayment() {
+            alert("If you have completed the payment, DM 'yourx_ali' on Discord with proof.");
+        }
+    </script>
+</body>
+</html>
